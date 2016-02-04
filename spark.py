@@ -9,7 +9,7 @@ A port of @holman's spark project for Python.
 
 import sys
 
-ticks = u'▁▂▃▅▆▇'
+ticks = u' ▁▂▃▄▅▆▇█'
 
 
 def spark_string(ints, fit_min=False):
@@ -20,12 +20,9 @@ def spark_string(ints, fit_min=False):
              rather than the default of zero. Useful for large numbers with
              relatively small differences between the positions
     """
-    min_range = 0
-    if fit_min:
-        min_range = min(ints)
-
+    min_range = min(ints) if fit_min else 0
     step_range = max(ints) - min_range
-    step = ((step_range) / float(len(ticks) - 1)) or 1
+    step = (step_range / float(len(ticks) - 1)) or 1
     return u''.join(ticks[int(round((i - min_range) / step))] for i in ints)
 
 
