@@ -11,7 +11,7 @@ The original [spark](https://github.com/holman/spark),
 is a [shell script][bin]
 (to be dropped in a directory that's in your `$PATH`).
 
-This Python port can be installed with :
+This Python 3 port can be installed with :
 
     $ python setup.py install
 
