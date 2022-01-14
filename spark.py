@@ -41,14 +41,19 @@ if __name__ == "__main__":
         spark_print(sparks)
         print
     else:
-        print("Spark: ▁▂▃▅▂▇ in your shell")
-        print()
-        print("Usage:")
-        print("  python spark.py [spaces separated values]\n")
-        print("Examples:")
-        print("  python spark.py 1 5 22 13 53")
+        usage = print(
+            """Spark: ▁▂▃▅▂▇ in your shell
+
+Usage:
+  python -m spark [spaces separated values]
+
+Examples:"""
+        )
+
+        print("  $ python -m spark 1 5 22 13 53")
+
         spark_print([1, 5, 22, 13, 53])
-        print()
-        print("  python spark.py 0 30 55 80 33 150")
+
+        print("  $ python -m spark 0 30 55 80 33 150")
+
         spark_print([0, 30, 55, 80, 33, 150])
-        print()
