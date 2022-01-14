@@ -2,13 +2,12 @@
 
 from distutils.core import setup
 
-setup(name='py-spark',
-      version='1.0',
-      description='Sparklines in your python',
-      author='Kenneth Reitz',
-      author_email='_@kennethreitz.com',
-      url='https://github.com/kennethreitz/spark.py',
-      py_modules=[
-          'spark',
-          ]
-     )
+setup(
+    name="spark",
+    version="1.0",
+    description="Sparklines with Python 3",
+    author="Sébastien Boisgérault",
+    author_email="Sebastien.Boisgerault@mines-paristech.fr",
+    url="https://github.com/boisgera/spark.py",
+    py_modules=["spark",],
+)
