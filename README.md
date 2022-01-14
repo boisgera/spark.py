@@ -8,7 +8,7 @@ See? Here's a graph of your productivity gains after using spark: ▁▂▃▅�
 
 The original [spark](https://github.com/holman/spark),
 [by Zach Holman](https://github.com/holman/spark/blob/master/LICENSE.md) 
-is a [shell script][bin], 
+is a [shell script][bin]
 (to be dropped in a directory that's in your `$PATH`).
 
 This Python port can be installed with :
