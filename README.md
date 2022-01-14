@@ -1,24 +1,35 @@
-# spark
-### sparklines in your Python
+# Spark
+
+### Sparklines with Python 3
 
 See? Here's a graph of your productivity gains after using spark: ▁▂▃▅▇
 
-## install
+## Install
 
-spark is a [shell script][bin], so drop it somewhere and make sure it's added
-to your `$PATH`. It's helpful if you have a super-neat collection of dotfiles.
+The original [spark](https://github.com/holman/spark) is a [shell script][bin], 
+(to be dropped in a directory that's in your `$PATH`).
 
-This is a Python port of the real [spark](https://github.com/holman/spark).
+This Python port can be installed with :
 
-## usage
+    $ python setup.py install
 
-Just give the `spark_print` function a list of numbers.
 
-    >>> spark_print([0,30,55,80,33,150])
+## Usage
+
+### Command-line interface
+
+    $ python -m spark 0 30 55 80 33 150
     ▁▂▃▅▂▇
 
 
-## ▇▁ ⟦⟧ ▇▁
+### Python interface
+
+    >>> from spark import spark_print
+    >>> spark_print([0, 30, 55, 80, 33, 150])
+    ▁▂▃▅▂▇
+
+
+
 
 
 [bin]:      https://github.com/holman/spark/blob/master/spark
