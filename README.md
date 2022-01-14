@@ -21,11 +21,11 @@ This Python 3 port can be installed with :
 ### Command-line interface
 
     $ python -m spark 0 30 55 80 33 150
-    ▁▂▃▅▂▇
+     ▂▃▄▂█
 
 
 ### Python interface
 
     >>> from spark import spark_print
     >>> spark_print([0, 30, 55, 80, 33, 150])
-    ▁▂▃▅▂▇
+     ▂▃▄▂█
