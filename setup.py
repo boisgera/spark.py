@@ -9,5 +9,5 @@ setup(
     author="Sébastien Boisgérault",
     author_email="Sebastien.Boisgerault@mines-paristech.fr",
     url="https://github.com/boisgera/spark.py",
-    py_modules=["spark",],
+    py_modules=["spark"],
 )
