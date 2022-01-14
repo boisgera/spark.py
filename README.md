@@ -29,11 +29,3 @@ This Python 3 port can be installed with :
     >>> from spark import spark_print
     >>> spark_print([0, 30, 55, 80, 33, 150])
     ▁▂▃▅▂▇
-
-
-
-
-
-[bin]:      https://github.com/holman/spark/blob/master/spark
-[spark]:     https://github.com/holman/spark
-[holman]:   https://twitter.com/holman
